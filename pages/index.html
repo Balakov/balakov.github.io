@@ -1,0 +1,145 @@
+$(active-nav) = 'home'
+
+{{ layout default_layout.html }}
+
+<div class="row">
+    <div class="col-12 d-flex justify-content-center">
+        <div class="image-grid">
+            <div class="side-text-left">
+                <h1 class="rotate-left">Photography</h1>
+            </div>
+            <div class="row image-row">
+                <div class="col-md-12">
+                    {{ include photo.html $(small-url)="assets/img/photos/classic_1.jpg" $(large-url)="http://farm3.staticflickr.com/2346/1614997917_a0afda8631_b_d.jpg" $(tag)="classic_1" $(img-title)="Lunch Atop a Skyscraper" }}
+                    <!--{{ include photo.html $(small-url)="assets/img/photos/classic_2.jpg" $(large-url)="http://farm4.staticflickr.com/3036/2460255572_12d0e93138_b_d.jpg" $(tag)="classic_2" $(img-title)="Tennis Girl" }}-->
+                    {{ include photo.html $(small-url)="assets/img/photos/iwo_jima_160.jpg" $(large-url)="https://live.staticflickr.com/3185/2452020557_6cb5c3399b_b_d.jpg" $(tag)="classic_2" $(img-title)="Raising the flag on Iwo Jima" }}
+                    {{ include photo.html $(small-url)="assets/img/photos/classic_3.jpg" $(large-url)="http://farm3.staticflickr.com/2044/2321734570_c24bb1ae37_b_d.jpg" $(tag)="classic_3" $(img-title)="VJ Day Times Square" }}
+                </div>
+            </div>
+
+            <div class="row image-row">
+                <div class="col-md-12">
+                    <!--{{ include photo.html $(small-url)="assets/img/photos/AutumnalEndor_160.jpg" $(large-url)="https://live.staticflickr.com/1947/31078499718_db9d737143_b_d.jpg" $(tag)="sw_3" $(img-title)="Autumnal Endor" }}-->
+                    {{ include photo.html $(small-url)="assets/img/photos/sw_3.jpg" $(large-url)="https://c2.staticflickr.com/4/3844/14340984970_f82b53babb_b_d.jpg" $(tag)="sw_3" $(img-title)="Space Craft" }}
+                    {{ include photo.html $(small-url)="assets/img/photos/sw_2.jpg" $(large-url)="http://farm3.staticflickr.com/2871/11911316544_1ab3cb4e03_b_d.jpg" $(tag)="sw_2" $(img-title)="Inferno" }}
+                    {{ include photo.html $(small-url)="assets/img/photos/Sand_160.jpg" $(large-url)="https://live.staticflickr.com/2817/13333328085_38bacf1119_b_d.jpg"  $(tag)="sw_1" $(img-title)="Sand" }}
+                </div>
+            </div>
+
+            <div class="row image-row">
+                <div class="col-md-12">
+                    {{ include photo.html $(small-url)="assets/img/photos/Escape_160.jpg" $(large-url)="https://live.staticflickr.com/65535/48284319977_9b6ea692db_b_d.jpg" $(tag)="robots_2" $(img-title)="Escape" }}
+                    {{ include photo.html $(small-url)="assets/img/photos/CityBot_160.jpg" $(large-url)="https://live.staticflickr.com/4407/36559334181_dbd904f89f_b_d.jpg"  $(tag)="robots_1" $(img-title)="City" }}
+                    {{ include photo.html $(small-url)="assets/img/photos/robot2.jpg" $(large-url)="https://live.staticflickr.com/5778/22758640067_b5ee80eb0f_b_d.jpg" $(tag)="robots_3" $(img-title)="Red" }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="text-center">
+    <img src="assets/img/spacer.svg" class="spacer" />
+</div>
+
+<div class="row mb-5">
+    <div class="col-12 d-flex justify-content-center">
+        <div class="image-grid">
+            <div class="side-text-right">
+                <h1 class="rotate-right">Illustration</h1>
+            </div>
+
+            <div class="row image-row">
+                <div class="col-md-12">
+                    {{ include photo.html $(small-url)="assets/img/design/SpaceCat_160.png"   $(large-url)="assets/img/design/SpaceCat_1024.png"   $(tag)="design_cat_1" $(img-title)="Space Cat - Christmas card 2020"}}
+                    {{ include photo.html $(small-url)="assets/img/design/WindowCat_160.png"  $(large-url)="assets/img/design/WindowCat_1024.png"  $(tag)="design_cat_2" $(img-title)="Sleeping Cat - Christmas card 2020"}}
+                    {{ include photo.html $(small-url)="assets/img/design/SketchyCat_160.png" $(large-url)="assets/img/design/SketchyCat_1024.png" $(tag)="design_cat_3" $(img-title)="Sketchy Cat"}}
+                </div>
+            </div>
+
+            <div class="row image-row">
+                <div class="col-md-12">
+                    {{ include photo.html $(small-url)="assets/img/design/StarWars_Shuttle_160.png"   $(large-url)="assets/img/design/StarWars_Shuttle_1024.png"   $(tag)="design_sw_1" $(img-title)="Suprematist Imperial Shuttle" }}
+                    {{ include photo.html $(small-url)="assets/img/design/StarWars_Falcon_160.png"    $(large-url)="assets/img/design/StarWars_Falcon_1024.png"    $(tag)="design_sw_2" $(img-title)="Suprematist Millennium Falcon" }}
+                    {{ include photo.html $(small-url)="assets/img/design/StarWars_DeathStar_160.png" $(large-url)="assets/img/design/StarWars_DeathStar_1024.png" $(tag)="design_sw_3" $(img-title)="Suprematist Death Star" }}
+                </div>
+            </div>
+
+            <div class="row image-row">
+                <div class="col-md-12">
+                    {{ include photo.html $(small-url)="assets/img/design/Badminton_160.png"   $(large-url)="assets/img/design/Badminton_1024.png" $(tag)="design_robot_1"   $(img-title)="Robots - Badminton Bot" }}
+                    {{ include photo.html $(small-url)="assets/img/design/YellowDroid_160.png" $(large-url)="assets/img/design/YellowDroid_1024.png" $(tag)="design_robot_2" $(img-title)="Robots - Yellow Droid" }}
+                    {{ include photo.html $(small-url)="assets/img/design/robots_160.png"      $(large-url)="assets/img/design/robots_1024.png" $(tag)="design_robot_3"      $(img-title)="Robots - Bubble Bot" }}
+                </div>
+            </div>
+
+            <!--
+            <div class="row image-row">
+                <div class="col-md-12">
+                    {{ include photo.html $(small-url)="assets/img/design/SiP_160.png" $(large-url)="https://c2.staticflickr.com/6/5773/22439501455_dbb6b841bc_b_d.jpg" $(tag)="design_robot_1" }}
+                    {{ include photo.html $(small-url)="assets/img/design/PlunderVolt_160.png" $(large-url)="https://c2.staticflickr.com/6/5773/22439501455_dbb6b841bc_b_d.jpg" $(tag)="design_robot_1" }}
+                    {{ include photo.html $(small-url)="assets/img/design/VoltPillager_160.png" $(large-url)="https://c2.staticflickr.com/6/5773/22439501455_dbb6b841bc_b_d.jpg" $(tag)="design_robot_1" }}
+                </div>
+            </div>
+            -->
+        </div>
+    </div>
+</div>
+
+{{ section styles }}
+<style>
+    .image-row {
+        text-align: center;
+    }
+
+    .thumbnail img {
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .image-grid {
+        position: relative;
+    }
+
+    .modal-body img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .modal-content {
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 0;
+    }
+
+    .modal-content .modal-header {
+        border: none;
+    }
+
+
+    @media (min-width: 768px)
+    {
+        .side-text-right {
+            position: absolute;
+            left: 116%;
+        }
+
+        .side-text-left {
+            position: absolute;
+            right: 118%;
+        }
+
+        .rotate-right {
+            transform-origin: top left;
+            transform: rotate(90deg);
+        }
+
+        .rotate-left {
+            transform-origin: top right;
+            transform: rotate(-90deg);
+        }
+    }
+</style>
+{{ endsection }}
