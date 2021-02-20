@@ -41,7 +41,7 @@ $(active-nav) = 'home'
     <img src="assets/img/spacer.svg" class="spacer" />
 </div>
 
-<div class="row mb-5">
+<div class="row">
     <div class="col-12 d-flex justify-content-center">
         <div class="image-grid">
             <div class="side-text-right">
@@ -84,6 +84,46 @@ $(active-nav) = 'home'
         </div>
     </div>
 </div>
+
+<div class="text-center">
+    <img src="assets/img/spacer.svg" class="spacer" />
+</div>
+
+<div class="row mb-5">
+    <div class="col-12 d-flex justify-content-center">
+        <div class="image-grid">
+            <div class="side-text-left">
+                <h1 class="rotate-left">Logos</h1>
+            </div>
+
+            <div class="row image-row">
+                <div class="col-md-12">
+                    {{ include photo.html $(small-url)="assets/img/logos/Hot_Air_Balloon_160.png"   $(large-url)="assets/img/logos/Hot_Air_Balloon_1024.png"    $(tag)="logos_bg_1" $(img-title)="Lift Hot Air Balloon Company Logo"}}
+                    {{ include photo.html $(small-url)="assets/img/logos/Self_Driving_Car_160.png"  $(large-url)="assets/img/logos/Self_Driving_Car_1024.png"   $(tag)="logos_bg_2" $(img-title)="Onward Driverless Car Company Logo"}}
+                    {{ include photo.html $(small-url)="assets/img/logos/Boat_160.png"              $(large-url)="assets/img/logos/Boat_1024.png"               $(tag)="logos_bg_3"  $(img-title)="Star Point Marine Boat Company Logo"}}
+                </div>
+            </div>
+
+            <div class="row image-row">
+                <div class="col-md-12">
+                    {{ include photo.html $(small-url)="assets/img/logos/Hip_Clothing_160.png" $(large-url)="assets/img/logos/Hip_Clothing_1024.png" $(tag)="logos_flat_1" $(img-title)="Vault Clothing Brand Logo" }}
+                    {{ include photo.html $(small-url)="assets/img/logos/Architect_160.png"    $(large-url)="assets/img/logos/Architect_1024.png"    $(tag)="logos_flat_2" $(img-title)="Pinnacle Architects Company Logo" }}
+                    {{ include photo.html $(small-url)="assets/img/logos/Baby_Apparel_160.png" $(large-url)="assets/img/logos/Baby_Apparel_1024.png" $(tag)="logos_flat_3" $(img-title)="Bloom and Baby Apparel Company Logo" }}
+                </div>
+            </div>
+
+            <div class="row image-row">
+                <div class="col-md-12">
+                    {{ include photo.html $(small-url)="assets/img/logos/Postal_Service_160.png"  $(large-url)="assets/img/logos/Postal_Service_1024.png"  $(tag)="logos_retro_1" $(img-title)="Speedy Postal Service Logo" }}
+                    {{ include photo.html $(small-url)="assets/img/logos/TV_News_Network_160.png" $(large-url)="assets/img/logos/TV_News_Network_1024.png" $(tag)="logos_retro_2" $(img-title)="TVW News Network Logo" }}
+                    {{ include photo.html $(small-url)="assets/img/logos/Messaging_App_160.png"   $(large-url)="assets/img/logos/Messaging_App_1024.png"   $(tag)="logos_retro_3" $(img-title)="Ping Pong Messaging App Logo" }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mb-5"></div>
 
 {{ section styles }}
 <style>
