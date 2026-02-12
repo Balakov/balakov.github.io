@@ -1,4 +1,0 @@
-$(title) = "Mike Stimpson &#8211; Photography &amp; Illustration"
-$(site.name) = "Mike Stimpson"
-$(site.description) = "Toy photography and illustration"
-$(site.url) = "http://mikestimpson.com"
