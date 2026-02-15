@@ -187,3 +187,15 @@
   }
 }
 
+.glightbox-clean .gslide-desc {
+  color: var(--bs-body-color);
+}
+
+.glightbox-clean .gslide-description {
+  background: var(--bs-dark);
+}
+
+.glightbox-clean .gslide-title {
+  color: var(--bs-body-color);
+}
+
