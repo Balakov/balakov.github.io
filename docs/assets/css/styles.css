@@ -199,3 +199,20 @@
   color: var(--bs-body-color);
 }
 
+.page-item {
+  --bs-pagination-active-bg: white;
+  --bs-pagination-active-border-color: white;
+  --bs-pagination-active-color: var(--bs-body-bg);
+}
+
+body {
+}
+
+.page-item {
+}
+
+a {
+  color: var(--bs-secondary);
+  text-decoration: none;
+}
+

@@ -49,7 +49,6 @@
 }
 
 @view-transition {
-  navigation: auto;
 }
 
 [data-bss-view-transition-name=main_block_anim] {
